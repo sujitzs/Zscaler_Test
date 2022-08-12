@@ -1,0 +1,37 @@
+1. The main difference between print and println is that when we use println statement Java compiler prints the statement and then moves the cursor to the next line whereas in the print statement it just prints the statement and keeps the cursor at the same line.
+
+2. Another way to achieve the println statement kind of effect with the print statement is to use the new line escape character at the end of our string.
+
+\n : New line
+\t : tab
+\" : To print "
+\\ : To print \
+
+
+Example:
+
+public class HelloWorld 
+{
+
+	public static void main(String[] args) 
+	{
+		
+		System.out.println("Hello World");
+		System.out.print("I love Pizza \n");
+		System.out.println("\t India is a great country");
+		System.out.println("He said \"I am the best \"");
+		System.out.println("The correct folder path is c:\\users\\ss22439\\desktop");
+		
+
+	}
+
+} 
+
+
+Output:
+
+Hello World
+I love Pizza 
+	 India is a great country
+He said "I am the best "
+The correct folder path is c:\users\ss22439\desktop
